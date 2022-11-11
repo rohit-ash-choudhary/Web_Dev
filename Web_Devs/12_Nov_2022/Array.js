@@ -48,3 +48,13 @@ var final_arr=arr.concat(fil)
 // arr.add(fil)
 console.log(final_arr)
 console.log(arr)
+console.log(fil.indexOf(3))
+
+var obj={name: 'rohitash', age:23,gebder:'male' }
+console.log(Array.isArray(final_arr))
+console.log(Array.isArray(obj))
+
+console.log(fil.sort())
+
+console.log(fil.toString())
+
