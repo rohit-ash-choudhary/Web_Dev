@@ -31,49 +31,53 @@ const obj2={
             arr : [1,2,3,4,5,6],
             arrayofobject :
             [
-                {
-                    name :'class',
-                    skills : 'java'
-                },
-                {
-                     name :'class',
-                     skills :  'java'
-                    }, 
-                {
-                    name :'class',
-                    skills :  'java'
-                }, 
-                {
-                    name :'class',
-                    skills :  'java'
-                },
-                {
-                    name :'class',
-                    skills :  'java'
+             { arr1 : [ {
+                    name :'value1',
+                    skills : 'value2'
                 }
             ],
-            arrayofobject :
-            [
-               1,2,
-               {
-                name : 'rohit',
-                branch :'cse'
-               } ,
-               {
-                name : 'rohit',
-                branch :'cse'
-               } 
-               ,
-               {
-                name : 'rohit',
-                branch :'cse'
-               } 
-            ]
+            arr2 : [ {
+                name :'value3',
+                skills : 'value4'
+               }
+              ] 
+            },
+            
+
+            { arr3 : [ {
+                name :'value5',
+                skills : 'value6'
+            }
+        ],
+        arr4 : [ {
+            name :'class',
+            skills : 'java'
+           }
+          ] 
+        }
+            ],
+            // arrayofobject :
+            // [
+            //    1,2,
+            //    {
+            //     name : 'rohit',
+            //     branch :'cse'
+            //    } ,
+            //    {
+            //     name : 'rohit',
+            //     branch :'cse'
+            //    } 
+            //    ,
+            //    {
+            //     name : 'rohit',
+            //     branch :'cse'
+            //    } 
+            // ]
             
 }
 
 // console.log(obj2)
-console.table(obj2)
+// console.table(obj2)
 // console.log(obj2.education.collage)
 
 // for(let len=0;len<obj2.arrayofobject.length;len++)
@@ -81,3 +85,11 @@ console.table(obj2)
 //     var el=obj2.arrayofobject[len];
 //     console.log(el.skills)
 // }
+
+for(let i=0;i<obj2.arrayofobject.length;i++)
+{
+    var el=obj2.arrayofobject[i];
+    console.log(el)
+
+}
+
