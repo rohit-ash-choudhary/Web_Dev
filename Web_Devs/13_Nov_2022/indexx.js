@@ -51,3 +51,27 @@ console.log(Math.round(pie))
 
 console.log(Math.ceil(3.4))
 console.log(Math.floor(3.4))
+
+console.log(Math.min(343,5,2,5,6,2,6,2,6,-1,53,-1))
+console.log(Math.max(343,5,2,5,6,2,6,2,6,-1,53,-1))
+console.log(Math.round(Math.random()*100))
+
+console.log(Math.abs(-10))
+
+console.log(Math.sqrt(101))
+
+console.log(Math.pow(3,40))
+
+console.log(Math.E)
+
+console.log(Math.log(Math.E))
+
+console.log(Math.sin(30))
+
+
+const date1=new Date();
+const date2= Date()
+
+console.log(date2)
+console.log(date1)
+
